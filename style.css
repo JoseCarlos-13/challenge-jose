@@ -34,11 +34,6 @@ nav{
   max-width: 25%;
 }
 
-.icon-menu{
-  padding: 0px;
-  margin-top: 0px;
-}
-
 footer{
   background-color: rgba(0, 0, 40, 1);
   padding: 25px;
@@ -51,5 +46,15 @@ footer{
   .icon-menu{
     display: none;
   }
+}
 
+/*tablet version*/
+@media screen and (min-width: 600px) {
+  .hero-image{
+    background-repeat: repeat;
+  }
+
+    .icon-menu{
+      display: none;
+    }
 }

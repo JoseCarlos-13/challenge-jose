@@ -15,8 +15,11 @@
   }
 
   .container-fluid{
-    width: 70%;
+    width: 90%;
     margin: 0px auto 0px auto;
+    background-color: rgba(0, 0, 115, 0.4);
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .menu{
@@ -67,15 +70,14 @@
   }
 
   .container-fluid{
-    width: 85%;
+    width: 90%;
     margin: 0px auto 0px auto;
+    background-color: rgba(0, 0, 115, 0.4);
   }
 
   .photo-hero{
-    width: 300px;
-    display:inline-block;
-    position: relative;
-    margin: 15px;
+    width: 200px;
+    margin: 5px;
   }
 
   .menu-bar{
@@ -109,14 +111,13 @@
   }
 
   .container-fluid{
-    width: 85%;
+    width: 80%;
     margin: 0px auto 0px auto;
+    background-color: rgba(0, 0, 115, 0.4);
   }
 
   .photo-hero{
     width: 300px;
-    display:inline-block;
-    position: relative;
     margin: 15px;
   }
 

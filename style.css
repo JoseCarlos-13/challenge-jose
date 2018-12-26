@@ -2,16 +2,18 @@
 
 body, html{
   height: 100%;
+  background-color: black;
 }
 
 .menu{
+  padding-top: 10px;
   margin-bottom: 0px;
-  padding-top: 5px;
   background-color: rgba(0, 0, 80, 1);
 }
 
 .menu-bar{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-left: 150px;
 }
 
 .btn{
@@ -20,14 +22,13 @@ body, html{
 
 .hero-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dc.jpg);
-  height: 91.5%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 95%;
+  background-size:cover;
+  background-position:center;
 }
 
-.logo img{
-  max-width: 25%;
+.hero-image img{
+  width: 30%;
 }
 
 footer{
@@ -37,20 +38,46 @@ footer{
   color: white;
 }
 
-/*mobile version*/
+  /*mobile version*/
 @media screen and (max-width: 600px) {
-  .icon-menu{
-    display: none;
+  .hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dcmobile.jpg);
+    height: 36%;
+    background-size:cover;
+    background-position:center;
+  }
+
+  .menu{
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 80, 1);
+  }
+
+  .hero-image img{
+    width: 30%;
+  }
+
+  .menu-bar{
+    margin-bottom: 10px;
   }
 }
 
 /*tablet version*/
-@media screen and (min-width: 600px) {
-  .hero-image{
-    background-repeat: repeat;
+@media screen and (min-width: 700px) {
+
+  .menu{
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 80, 1);
   }
 
-    .icon-menu{
-      display: none;
-    }
+  .menu-bar{
+    margin-bottom: 10px;
+  }
+
+  .hero-image img{
+    width: 30%;
+  }
 }

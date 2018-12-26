@@ -8,12 +8,12 @@ body, html{
 .menu{
   padding-top: 10px;
   margin-bottom: 0px;
-  padding-left: 50px;
   background-color: rgba(0, 0, 80, 1);
 }
 
 .menu-bar{
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 .btn{
@@ -21,7 +21,7 @@ body, html{
 }
 
 .hero-image{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dc.jpg), no-repeat center center fixed ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dc.jpg);
   height: 95%;
   background-size:cover;
   background-position:center;
@@ -38,13 +38,20 @@ footer{
   color: white;
 }
 
-  /*versão mobile*/
+  /*mobile version*/
 @media screen and (max-width: 600px) {
   .hero-image{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dcmobile.jpg), no-repeat center center fixed ;
-    height: 40%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dcmobile.jpg);
+    height: 36%;
     background-size:cover;
     background-position:center;
+  }
+
+  .menu{
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 80, 1);
   }
 
   .hero-image img{
@@ -54,12 +61,16 @@ footer{
   .menu-bar{
     margin-bottom: 10px;
   }
+}
 
-/*versão tablet*/
-@media screen and (min-width: 500px) {
-  .hero-image{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dctablet.jpg), no-repeat center center fixed ;
-    background-size:cover;
+/*tablet version*/
+@media screen and (min-width: 700px) {
+
+  .menu{
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 80, 1);
   }
 
   .menu-bar{

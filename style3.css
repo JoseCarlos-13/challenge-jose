@@ -2,11 +2,13 @@
 
   body, html{
     color: white;
+    text-align: justify;
   }
 
   h1 {
     color: white;
     margin-bottom: 50px;
+    background-color: darkblue;
   }
 
   p {

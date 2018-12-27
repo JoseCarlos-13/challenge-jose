@@ -35,15 +35,36 @@
     margin-left: 50px;
   }
 
+  .btn a{
+    color: white;
+  }
+
+  .btn a:hover{
+    color: black;
+  }
+
   .btn{
     padding: 0px;
+    color: white;
+    background:darkblue;
+       -webkit-transition:background 0.5s ease-out;
+       -moz-transition:background 0.5s ease-out;
+       -o-transition:background 0.5s ease-out;
+       -ms-transition:background 0.5s ease-out;
+  }
+
+  .btn:hover{
+    background:white;
+      filter:alpha(opacity=200);
+     -moz-opacity:1;
+      opacity:1;
   }
 
   .photo-hero{
     width: 30%;
     display:inline-block;
     position: relative;
-    margin: 15px
+    margin: 10px
   }
 
   .hero-image{

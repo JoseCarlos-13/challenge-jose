@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body, html{
-  height: 100%;
+  height: 10%;
   background-color: black;
 }
 
@@ -34,15 +34,9 @@ body, html{
     opacity:1;
 }
 
-.hero-image{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/dc.jpg");
-  height: 95%;
-  background-size:cover;
-  background-position:center;
-}
 
 .hero-image img{
-  width: 30%;
+  width: 0%;
 }
 
 footer{
@@ -51,7 +45,61 @@ footer{
   padding: 25px;
   text-align: center;
   color: white;
-  width: 100%;
+}
+
+*{
+     margin:0;
+     padding: 0;
+
+ }
+ .load{
+     animation: slide 10s;
+ }
+ .slider{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: 100vh;
+     animation: slide 10s infinite;
+ }
+ .content{
+     color: #fff;
+     width: 100%;
+     height: 150vh;
+       background-color: rgba(0,0,0,0.5);
+ }
+
+
+@keyframes slide {
+    0%{
+      background-image: url("../backgrounds/dc.jpg");
+    }
+    20.01%{
+      background-image: url("../backgrounds/background2.jpg");
+    }
+    40%{
+      background-image: url("../backgrounds/background3.jpg");
+    }
+    40.01%{
+      background-image: url("../backgrounds/background4.jpg");
+    }
+    60%{
+      background-image: url("../backgrounds/background5.jpg");
+    }
+    60.01%{
+      background-image: url("../backgrounds/background6.jpg");
+    }
+    80%{
+      background-image: url("../backgrounds/background7.jpg");
+    }
+    80.01%{
+      background-image: url("../backgrounds/background8.jpg");
+    }
+    100%{
+      background-image: url("../backgrounds/background9.jpg");
+    }
+
 }
 
   /*mobile version*/

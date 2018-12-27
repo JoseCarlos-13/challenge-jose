@@ -6,14 +6,7 @@ body, html{
 }
 
 .menu{
-  padding-top: 10px;
-  margin-bottom: 0px;
   background-color: rgba(0, 0, 80, 1);
-}
-
-.menu-bar{
-  margin-bottom: 10px;
-  margin-left: 50px;
 }
 
 .btn a{
@@ -42,7 +35,7 @@ body, html{
 }
 
 .hero-image{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dc.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/dc.jpg");
   height: 95%;
   background-size:cover;
   background-position:center;
@@ -53,16 +46,18 @@ body, html{
 }
 
 footer{
+  position: absolute;
   background-color: rgba(0, 0, 40, 1);
   padding: 25px;
   text-align: center;
   color: white;
+  width: 100%;
 }
 
   /*mobile version*/
 @media screen and (max-width: 600px) {
   .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dcmobile.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/dcmobile.jpg");
     height: 36%;
     background-size:cover;
     background-position:center;
@@ -80,12 +75,21 @@ footer{
   }
 
   .menu-bar{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+  }
+
+  footer{
+    position: absolute;
+    background-color: rgba(0, 0, 40, 1);
+    padding: 25px;
+    text-align: center;
+    color: white;
+    width: 100%;
   }
 }
 
 /*tablet version*/
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 601px) {
 
   .menu{
     padding-top: 10px;
@@ -101,5 +105,14 @@ footer{
 
   .hero-image img{
     width: 30%;
+  }
+
+  footer{
+    position: absolute;
+    background-color: rgba(0, 0, 40, 1);
+    padding: 25px;
+    text-align: center;
+    color: white;
+    width: 100%;
   }
 }

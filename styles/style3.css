@@ -15,10 +15,14 @@
     text-indent: 5%;
   }
 
+  .menu-bar{
+    padding-left: 50px;
+  }
+
   .container-fluid{
     width: 80%;
     margin: 0px auto 0px auto;
-    background-color: rgba(0, 0, 115, 0.4);
+    background-color: rgba(0, 0, 115, 0.5);
     padding-left: 70px;
     padding-right: 70px;
   }

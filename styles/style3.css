@@ -41,6 +41,18 @@
     color: black;
   }
 
+  .navbar {
+      -webkit-transition: all 0.6s ease-out;
+      -moz-transition: all 0.6s ease-out;
+      -o-transition: all 0.6s ease-out;
+      -ms-transition: all 0.6s ease-out;
+      transition: all 0.6s ease-out;
+      border-radius: 0px;
+      background-color: rgba(0, 0, 110, 1);
+      padding-top: 7px;
+      margin-bottom: 0px
+  }
+
   .btn{
     padding: 0px;
     color: white;

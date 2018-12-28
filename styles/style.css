@@ -17,6 +17,9 @@ body, html{
     margin-bottom: 0px
 }
 
+.navbar-nav>li>a {
+  color: white !important;
+}
 
 .btn a:hover{
   color: black;

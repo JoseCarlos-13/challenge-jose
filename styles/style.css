@@ -21,13 +21,9 @@ body, html{
   color: white !important;
 }
 
-.btn a:hover{
-  color: black;
-}
-
 .btn{
   padding: 0px;
-  color: white;
+  color: black;
   background:darkblue;
      -webkit-transition:background 0.5s ease-out;
      -moz-transition:background 0.5s ease-out;
@@ -123,6 +119,10 @@ footer{
       width: 100%;
   }
 
+  .navbar-nav>li>a {
+    color: white !important;
+  }
+
   .logo img{
     width: 50%;
   }
@@ -152,14 +152,14 @@ footer{
        background-size: cover;
        background-position: center;
        width: 100%;
-       height: 50vh;
+       height: 100vh;
        animation: slide 50s infinite;
    }
 
    .content{
        color: #fff;
        width: 100%;
-       height: 50vh;
+       height: 100vh;
        background-color: rgba(0,0,0,0.6);
        margin-top: 0px;
    }

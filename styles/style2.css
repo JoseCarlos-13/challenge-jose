@@ -15,15 +15,9 @@
     text-indent: 5%;
   }
 
-  .navbar-nav>li>a {
-    color: white !important;
-  }
-
   .navbar a{
     color: white;
   }
-
-
 
   .navbar {
       -webkit-transition: all 0.6s ease-out;
@@ -37,9 +31,7 @@
       margin-bottom: 0px
   }
 
-  .container-fluid{
-    width: 80%;
-    margin: 0px auto 0px auto;
+  .container{
     background-color: rgba(0, 0, 115, 0.5);
     padding-left: 70px;
     padding-right: 70px;
@@ -111,7 +103,7 @@
     color: white !important;
   }
 
-  .container-fluid{
+  .container{
     width: 100%;
     margin: 0px auto 0px auto;
     background-color: rgba(0, 0, 115, 0.4);

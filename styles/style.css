@@ -17,13 +17,9 @@ body, html{
     margin-bottom: 0px
 }
 
-.navbar-nav>li>a {
-  color: white !important;
-}
-
 .btn{
   padding: 0px;
-  color: black;
+  color: black !important;
   background:darkblue;
      -webkit-transition:background 0.5s ease-out;
      -moz-transition:background 0.5s ease-out;

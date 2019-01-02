@@ -32,14 +32,9 @@ button.btn {
 }
 
 .container{
-  background-color: rgba(0,0,0,0.6);
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../backgrounds/original.jpg');
+  background-color: rgba(0, 0, 115, 0.5);
   padding-left: 70px;
   padding-right: 70px;
-}
-
-.btn a:hover{
-  color: black;
 }
 
 .btn{
@@ -86,6 +81,10 @@ footer{
 
   .navbar {
       width: 100%;
+  }
+
+  .menu-bar{
+    margin: 0px;
   }
 
   .navbar-nav>li>a {

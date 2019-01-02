@@ -85,6 +85,10 @@
       width: 100%;
   }
 
+  .menu-bar{
+    margin: 0px;
+  }
+
   .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/dcbackgroundmobile.jpg");
     height: 20%;

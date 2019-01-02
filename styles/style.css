@@ -6,6 +6,7 @@ body, html{
 
 .menu-bar{
   margin-right: 150px;
+  color: white;
 }
 
 .navbar {
@@ -22,7 +23,7 @@ body, html{
 
 .btn{
   padding: 0px;
-  color: black !important;
+  color: black;
   background:darkblue;
      -webkit-transition:background 0.5s ease-out;
      -moz-transition:background 0.5s ease-out;
@@ -116,6 +117,10 @@ footer{
 
   .navbar {
       width: 100%;
+  }
+
+  .menu-bar{
+    margin: 0px;
   }
 
   .navbar-nav>li>a {

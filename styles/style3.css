@@ -56,7 +56,6 @@ button.btn {
   text-shadow: 1px 0px 3px black;
 }
 
-
 .logo img{
   width: 30%;
 }
@@ -70,11 +69,11 @@ button.btn {
 }
 
 footer{
-  position: absolute;
   background-color: rgba(0, 0, 40, 1);
   padding: 25px;
   text-align: center;
   color: white;
+  height: 100px;
 }
 
 
@@ -122,9 +121,6 @@ footer{
 
   .menu-bar{
     margin-bottom: 10px;
-  }
-
-  .navbar {
   }
 
   footer{

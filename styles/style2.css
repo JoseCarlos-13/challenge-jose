@@ -15,8 +15,8 @@
     text-indent: 5%;
   }
 
-  .navbar a{
-    color: white;
+  .menu-bar{
+    margin-right: 150px;
   }
 
   .navbar {
@@ -35,13 +35,6 @@
     background-color: rgba(0, 0, 115, 0.5);
     padding-left: 70px;
     padding-right: 70px;
-  }
-
-  .menu{
-    padding-top: 10px;
-    margin-bottom: 0px;
-    padding-left: 20px;
-    background-color: rgba(0, 0, 80, 1);
   }
 
   .btn{

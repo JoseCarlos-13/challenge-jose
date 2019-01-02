@@ -27,8 +27,13 @@ button.btn {
     margin-bottom: 0px
 }
 
+.menu-bar{
+  margin-right: 150px;
+}
+
 .container{
-  background-color: rgba(0, 0, 115, 0.5);
+  background-color: rgba(0,0,0,0.6);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../backgrounds/original.jpg');
   padding-left: 70px;
   padding-right: 70px;
 }

@@ -20,6 +20,8 @@
     background-color: rgba(0, 0, 115, 0.4);
     padding-left: 70px;
     padding-right: 70px;
+    width: 70%;
+    margin: 0px auto 0px auto;
   }
 
   .menu{
@@ -78,6 +80,15 @@
   .photo-hero{
     width: 200px;
     margin: 5px;
+    width: 85%;
+    margin: 0px auto 0px auto;
+  }
+
+  .photo-hero{
+    width: 300px;
+    display:inline-block;
+    position: relative;
+    margin: 15px;
   }
 
   .menu-bar{

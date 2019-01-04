@@ -5,28 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title></title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse menu">
-      <ul class="nav nav-pills navbar-left menu-bar">
-       <li role="presentation" class="btn btn-default"><a href="index.html">Home</a></li>
-       <li role="presentation" class="btn btn-default"><a href="#">Heroes</a></li>
-       <li role="presentation" class="btn btn-default"><a href="#">Villains</a></li>
-      </ul>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header icon">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+     <div class="collapse navbar-collapse" id="navbar-collapse-2">
+          <ul class="nav navbar-nav navbar-right menu-bar">
+            <li role="presentation" class="btn btn-default"><a href="index.html">Home</a></li>
+            <li role="presentation" class="btn btn-default"><a href="heroes.html">Heroes</a></li>
+            <li role="presentation" class="btn btn-default"><a href="villains.html">Villains</a></li>
+            <li role="presentation" class="btn btn-default"><a href="contactform.html">Contact Form</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <div class="hero-image">
-      <div class="logo text-center">
-        <img src="logo.webp" alt="">
+    <div class="slider">
+      <div class="load"></div>
+      <div class="content">
+        <div class="principal">
+          <div class="logo text-center">
+            <img src="logo.webp" alt="">
+          </div>
+        </div>
       </div>
     </div>
 
-    <footer>
-      <p>DC universe | 2018</p>
+    <footer class="fixed-bottom">
+      <div class="row center-xs">
+        <div class="col-xs-12">
+            <p>DC universe | 2018</p>
+        </div>
+      </div>
     </footer>
 
+    <script src="scripts/home.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>

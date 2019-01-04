@@ -13,7 +13,11 @@ body, html{
 
 .menu-bar{
   margin-bottom: 10px;
+<<<<<<< HEAD
   margin-left: 150px;
+=======
+  margin-left: 30px;
+>>>>>>> c5cf07129cfc04b0ef8e1077e1c904744d78d3f6
 }
 
 .btn{

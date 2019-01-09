@@ -72,10 +72,27 @@ button.btn {
 
 footer{
   position: absolute;
+  text-shadow: 1px 0px 3px black;
+}
+
+.logo img{
+  width: 30%;
+}
+
+.hero-image{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../backgrounds/dcbackground.jpg");
+  height: 95%;
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+footer{
   background-color: rgba(0, 0, 40, 1);
   padding: 25px;
   text-align: center;
   color: white;
+  height: 100px;
 }
 
 
@@ -123,9 +140,6 @@ footer{
 
   .menu-bar{
     margin-bottom: 10px;
-  }
-
-  .navbar {
   }
 
   footer{

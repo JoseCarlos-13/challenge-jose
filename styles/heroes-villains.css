@@ -15,11 +15,16 @@
     text-indent: 5%;
   }
 
-.btn-message {
-    padding: 20px;
+.buttonclass {
+    padding: 10px;
     margin: 10px;
     border: 1px solid white;
+    background-color: darkblue;
   }
+
+.buttonclass a:hover{
+  text-shadow: 1px 0px 3px black;
+}
 
   .well {
     background-color: darkblue;
@@ -52,7 +57,7 @@
     color: white !important;
   }
 
-  .btn{
+  .navbut{
     padding: 0px;
     background-color: darkblue;
     -webkit-transition:background 0.2s ease-out;
@@ -61,8 +66,7 @@
     -ms-transition:background 0.2s ease-out;
   }
 
-  .btn a:hover{
-    color: black;
+  .navbut a:hover{
     text-shadow: 1px 0px 3px black;
   }
 
